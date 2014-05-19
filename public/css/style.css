@@ -1,0 +1,160 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ overflow-x: hidden;
+
+ }
+
+@font-face
+{
+font-family: haet;
+src: url(../fonts/236.ttf);
+}
+.navbar{
+	border-radius: 0px;
+	margin-left:  -300px;
+	/*margin-top: -20px; */
+	width: 400px;
+	height: 100%;
+	background-color: #242923;
+	position: fixed;
+	clear: both;
+
+}
+.navbarClick{
+	height: 100%;
+	width: 100px;
+	background-color: #20251F;
+	float: right;
+}
+.navbarRight{
+	border-radius: 0px;
+	width: 400px;
+	height: 800px;
+	background-color: #242923;
+	color: white;
+	float: right;
+	margin-right: -380px;
+	
+	position: relative;
+	
+
+
+}
+.navbarRightClick{
+	height: 100%;
+	width: 20px;
+	background-color: #20251F;
+	
+	position: fixed;
+	border-radius: 0 0 0px 10px;
+
+
+}
+
+.loginForm{
+	width: 200px;
+	height: 300px;
+	font-family: 'haet';
+	float: left;
+	margin:250px 0 0 70px;
+}
+
+body{
+	background-color: #333D35;
+}
+.navbarText{
+	margin-top: 300px;
+	position: absolute;
+}
+#navigation{
+	color: white;
+	list-style-type: none;
+	font-family: 'haet';
+	font-size: 25px;
+	margin-bottom: 100px;
+}
+#navigation li:hover{
+	color: #2F6128;
+	font-weight:1900;
+
+}
+#copyright{
+	margin-top: 50px;
+	font-family: 'haet';
+	list-style-type: none;
+	color: white;
+}
+.grey{
+	margin-top: -10px;
+	color: gray;
+}
+#names{
+	margin-top: 20px;
+	font-family: 'haet' !important;
+	list-style-type: none !important;
+	color: gray !important;
+}
+#names li{
+	margin-bottom: -5px; 
+}
+.button{
+	height: 50px;
+	width: 50px;
+	
+	margin: 10px auto;
+	padding: 5px 0 0 0 ;
+}
+.button2{
+	height: 50px;
+	width: 50px;
+	
+	margin: 10px auto;
+	padding: 5px 0 0 0 ;
+}
+.stripes{
+	width: 40px;
+	height: 5px;
+	border-radius: 3px;
+	background-color: gray;
+	margin: 5px 0 0 5px;
+}
+.stripes2{
+	width: 40px;
+	height: 5px;
+	border-radius: 3px;
+	background-color: gray;
+	margin: 5px 0 0 5px;
+}
+.main{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	background-color: red;	
+}
+.content{
+	font-family: 'haet';
+	
+	height: 650px;
+	width: 1030px;
+	margin: 0 auto;
+	
+}
+input{
+	background-color: #969806;
+}
+
+a:link {
+	text-decoration:none;
+}
+a:visited {
+	text-decoration:none;
+	color: white;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+	text-decoration:underline;
+}
